@@ -1,9 +1,11 @@
 import React from 'react';
 
+import HomePage from './HomePage';
+
 function App() {
   return (
     <div>
-      Hello World
+      <HomePage />
     </div>
   );
 }
