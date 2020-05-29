@@ -149,6 +149,10 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '72': '18rem',
+      '80': '20rem',
+      '88': '22rem',
+      '96': '24rem',
     },
     backgroundColor: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
@@ -232,6 +236,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Open Sans Condensed',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -605,6 +610,8 @@ module.exports = {
       in: 'cubic-bezier(0.4, 0, 1, 1)',
       out: 'cubic-bezier(0, 0, 0.2, 1)',
       'in-out': 'cubic-bezier(0.4, 0, 0.2, 1)',
+      'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+      'out-quad': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
     },
     transitionDuration: {
       '75': '75ms',
@@ -679,7 +686,7 @@ module.exports = {
     minWidth: ['responsive'],
     objectFit: ['responsive'],
     objectPosition: ['responsive'],
-    opacity: ['responsive', 'hover', 'focus'],
+    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     order: ['responsive'],
     outline: ['responsive', 'focus'],
     overflow: ['responsive'],
@@ -717,7 +724,7 @@ module.exports = {
     gridRowEnd: ['responsive'],
     transform: ['responsive'],
     transformOrigin: ['responsive'],
-    scale: ['responsive', 'hover', 'focus'],
+    scale: ['responsive', 'hover', 'focus', 'group-hover'],
     rotate: ['responsive', 'hover', 'focus'],
     translate: ['responsive', 'hover', 'focus'],
     skew: ['responsive', 'hover', 'focus'],
