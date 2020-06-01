@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import MenuItem from './Menu-Item';
 
 const Directory = () => {
-  const [sections, setSections] = useState(
+  const [sections] = useState(
     [
       {
         title: 'hats',

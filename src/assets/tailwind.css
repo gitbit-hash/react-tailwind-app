@@ -1,3 +1,38 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  @apply top-4;
+  @apply left-0;
+  @apply text-sm;
+  @apply opacity-50;
+}
+
+.inputText {
+  @apply block;
+  @apply w-full; 
+  @apply outline-none;
+  @apply tracking-wide; 
+  @apply mt-1; 
+  @apply mx-0;
+  @apply border-b; 
+  @apply border-gray-600; 
+  @apply bg-white;  
+  @apply text-xl; 
+  @apply pt-2; 
+  @apply pl-2;
+  @apply pb-2;
+  @apply pr-1; 
+}
+
+.floating-label {
+  @apply absolute;
+  @apply left-1;
+  @apply top-10;
+  @apply top-10;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
 @import "tailwindcss/utilities";
