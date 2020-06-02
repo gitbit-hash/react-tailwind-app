@@ -5749,6 +5749,46 @@ input:not(:focus):valid ~ .floating-label{
   border-style: none;
 }
 
+.hover\:border-solid:hover {
+  border-style: solid;
+}
+
+.hover\:border-dashed:hover {
+  border-style: dashed;
+}
+
+.hover\:border-dotted:hover {
+  border-style: dotted;
+}
+
+.hover\:border-double:hover {
+  border-style: double;
+}
+
+.hover\:border-none:hover {
+  border-style: none;
+}
+
+.focus\:border-solid:focus {
+  border-style: solid;
+}
+
+.focus\:border-dashed:focus {
+  border-style: dashed;
+}
+
+.focus\:border-dotted:focus {
+  border-style: dotted;
+}
+
+.focus\:border-double:focus {
+  border-style: double;
+}
+
+.focus\:border-none:focus {
+  border-style: none;
+}
+
 .border-0 {
   border-width: 0;
 }
@@ -8664,6 +8704,10 @@ input:not(:focus):valid ~ .floating-label{
 }
 
 .outline-none {
+  outline: 0;
+}
+
+.hover\:outline-none:hover {
   outline: 0;
 }
 
@@ -26585,6 +26629,46 @@ input:not(:focus):valid ~ .floating-label{
     border-style: none;
   }
 
+  .sm\:hover\:border-solid:hover {
+    border-style: solid;
+  }
+
+  .sm\:hover\:border-dashed:hover {
+    border-style: dashed;
+  }
+
+  .sm\:hover\:border-dotted:hover {
+    border-style: dotted;
+  }
+
+  .sm\:hover\:border-double:hover {
+    border-style: double;
+  }
+
+  .sm\:hover\:border-none:hover {
+    border-style: none;
+  }
+
+  .sm\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+
+  .sm\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+
+  .sm\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+
+  .sm\:focus\:border-double:focus {
+    border-style: double;
+  }
+
+  .sm\:focus\:border-none:focus {
+    border-style: none;
+  }
+
   .sm\:border-0 {
     border-width: 0;
   }
@@ -29500,6 +29584,10 @@ input:not(:focus):valid ~ .floating-label{
   }
 
   .sm\:outline-none {
+    outline: 0;
+  }
+
+  .sm\:hover\:outline-none:hover {
     outline: 0;
   }
 
@@ -47422,6 +47510,46 @@ input:not(:focus):valid ~ .floating-label{
     border-style: none;
   }
 
+  .md\:hover\:border-solid:hover {
+    border-style: solid;
+  }
+
+  .md\:hover\:border-dashed:hover {
+    border-style: dashed;
+  }
+
+  .md\:hover\:border-dotted:hover {
+    border-style: dotted;
+  }
+
+  .md\:hover\:border-double:hover {
+    border-style: double;
+  }
+
+  .md\:hover\:border-none:hover {
+    border-style: none;
+  }
+
+  .md\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+
+  .md\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+
+  .md\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+
+  .md\:focus\:border-double:focus {
+    border-style: double;
+  }
+
+  .md\:focus\:border-none:focus {
+    border-style: none;
+  }
+
   .md\:border-0 {
     border-width: 0;
   }
@@ -50337,6 +50465,10 @@ input:not(:focus):valid ~ .floating-label{
   }
 
   .md\:outline-none {
+    outline: 0;
+  }
+
+  .md\:hover\:outline-none:hover {
     outline: 0;
   }
 
@@ -68259,6 +68391,46 @@ input:not(:focus):valid ~ .floating-label{
     border-style: none;
   }
 
+  .lg\:hover\:border-solid:hover {
+    border-style: solid;
+  }
+
+  .lg\:hover\:border-dashed:hover {
+    border-style: dashed;
+  }
+
+  .lg\:hover\:border-dotted:hover {
+    border-style: dotted;
+  }
+
+  .lg\:hover\:border-double:hover {
+    border-style: double;
+  }
+
+  .lg\:hover\:border-none:hover {
+    border-style: none;
+  }
+
+  .lg\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+
+  .lg\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+
+  .lg\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+
+  .lg\:focus\:border-double:focus {
+    border-style: double;
+  }
+
+  .lg\:focus\:border-none:focus {
+    border-style: none;
+  }
+
   .lg\:border-0 {
     border-width: 0;
   }
@@ -71174,6 +71346,10 @@ input:not(:focus):valid ~ .floating-label{
   }
 
   .lg\:outline-none {
+    outline: 0;
+  }
+
+  .lg\:hover\:outline-none:hover {
     outline: 0;
   }
 
@@ -89096,6 +89272,46 @@ input:not(:focus):valid ~ .floating-label{
     border-style: none;
   }
 
+  .xl\:hover\:border-solid:hover {
+    border-style: solid;
+  }
+
+  .xl\:hover\:border-dashed:hover {
+    border-style: dashed;
+  }
+
+  .xl\:hover\:border-dotted:hover {
+    border-style: dotted;
+  }
+
+  .xl\:hover\:border-double:hover {
+    border-style: double;
+  }
+
+  .xl\:hover\:border-none:hover {
+    border-style: none;
+  }
+
+  .xl\:focus\:border-solid:focus {
+    border-style: solid;
+  }
+
+  .xl\:focus\:border-dashed:focus {
+    border-style: dashed;
+  }
+
+  .xl\:focus\:border-dotted:focus {
+    border-style: dotted;
+  }
+
+  .xl\:focus\:border-double:focus {
+    border-style: double;
+  }
+
+  .xl\:focus\:border-none:focus {
+    border-style: none;
+  }
+
   .xl\:border-0 {
     border-width: 0;
   }
@@ -92011,6 +92227,10 @@ input:not(:focus):valid ~ .floating-label{
   }
 
   .xl\:outline-none {
+    outline: 0;
+  }
+
+  .xl\:hover\:outline-none:hover {
     outline: 0;
   }
 
